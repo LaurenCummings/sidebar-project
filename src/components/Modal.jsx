@@ -1,3 +1,4 @@
+import '../css/Modal.css';
 import { FaTimes } from 'react-icons/fa'
 
 function Modal() {
