@@ -1,5 +1,6 @@
 import '../css/Modal.css';
 import { FaTimes } from 'react-icons/fa'
+import { useGlobalContext } from '../Context';
 
 function Modal() {
     return (
