@@ -4,9 +4,27 @@ import { social, links } from '../data';
 
 function Sidebar() {
     return (
-        <div>
-            Sidebar
-        </div>
+        <aside className={`sidebar show-sidebar`}>
+            <div className="sidebar-header">
+                <img src={logo} className="logo" alt="coding addict" />
+                <button className="close-btn">
+                    <FaTimes />
+                </button>
+            </div>
+            <ul className="links">
+                {links.map((link) => {
+                    const { id, url, text, icon } = link;
+                    return (
+                        <li kye={id}>
+                            <a href={url}>
+                                {icon}
+                                {text}
+                            </a>
+                        </li>
+                    )
+                })}
+            </ul>
+        </aside>
     )
 }
 
