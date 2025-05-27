@@ -1,6 +1,6 @@
 import { useState, useContext } from 'react';
 
-const AppContext = React.createContext();
+const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
     return (
