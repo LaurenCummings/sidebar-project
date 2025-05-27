@@ -15,7 +15,7 @@ function Sidebar() {
                 {links.map((link) => {
                     const { id, url, text, icon } = link;
                     return (
-                        <li kye={id}>
+                        <li key={id}>
                             <a href={url}>
                                 {icon}
                                 {text}
