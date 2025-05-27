@@ -1,9 +1,8 @@
-import { useContext } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { AppContext } from '../Context';
+import { useGlobalContext } from '../Context';
 
 function Home() {
-    const data = useContext(AppContext);
+    const data = useGlobalContext();
     console.log(data);
 
     return (
