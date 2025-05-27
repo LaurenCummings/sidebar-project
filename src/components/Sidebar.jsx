@@ -1,3 +1,4 @@
+import '../css/Sidebar.css';
 import logo from '../logo.svg'
 import { FaTimes } from 'react-icons/fa';
 import { social, links } from '../data';
@@ -7,7 +8,7 @@ function Sidebar() {
     const { isSidebarOpen, closeSidebar } = useGlobalContext();
 
     return (
-        <aside className={`${isSidebarOpen ? 'sidebar showSidebar' : 'sidebar' }`}>
+        <aside className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar' }`}>
             <div className="sidebar-header">
                 <img src={logo} className="logo" alt="coding addict" />
                 <button className="close-btn" onClick={closeSidebar}>
