@@ -10,7 +10,7 @@ function Home() {
             <button className="sidebar-toggle" onClick={openSidebar}>
                 <FaBars />
             </button>
-            <button className="btn" onClick={openModal}>show modal</button>
+            <button className="modal-btn" onClick={openModal}>show modal</button>
         </main>
     )
 }
