@@ -29,6 +29,10 @@
     position: relative;
 }
 
+.modal-container h3 {
+    text-transform: capitalize;
+}
+
 .close-modal-btn {
     position: absolute;
     top: 1rem;
