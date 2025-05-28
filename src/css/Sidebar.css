@@ -24,6 +24,10 @@
     height: 40px;
 }
 
+.links {
+    list-style-type: none;
+}
+
 .links a {
     display: flex;
     align-items: center;
@@ -33,6 +37,7 @@
     color: rgb(50, 77, 103);
     transition: all 0.3s linear;
     letter-spacing: 0.1rem;
+    text-decoration: none;
 }
 
 .links a:hover {
@@ -51,6 +56,9 @@
     color: rgb(72, 100, 127);
 }
 
+.social-icons {
+    list-style-type: none;
+}
 
 
 .sidebar {
