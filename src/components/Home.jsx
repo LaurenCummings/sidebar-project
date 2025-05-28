@@ -1,3 +1,4 @@
+import '../css/Home.css';
 import { FaBars } from 'react-icons/fa';
 import { useGlobalContext } from '../Context';
 
